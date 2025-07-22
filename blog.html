@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class project Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f0f0; color: #333; line-height: 1.6; }
+        .blog-container { max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; font-size: 2rem; margin-bottom: 15px; text-align: center; }
+        h2 { color: #34495e; font-size: 1.5rem; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 10px; font-size: 1rem; }
+        .author-date { text-align: center; font-style: italic; color: #000000; margin-bottom: 20px; }
+        @media (max-width: 768px) {
+            .blog-container { margin: 10px; padding: 15px; }
+            nav .container { flex-direction: column; align-items: flex-start; }
+            nav .space-x-4 { margin-top: 8px; flex-direction: column; width: 100%; }
+            nav .space-x-4 a { width: 100%; text-align: center; padding: 6px 0; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-gray-800 p-3 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center flex-wrap">
+            <a href="#" class="text-white text-xl font-bold rounded-md px-2 py-1 hover:bg-gray-700">Class project blog</a>
+            <div class="space-x-2 flex flex-wrap justify-center md:justify-end">
+                <a href="#" class="text-gray-300 hover:text-white rounded-md px-2 py-1">Home</a>
+                <a href="#" class="text-gray-300 hover:text-white rounded-md px-2 py-1">About</a>
+                <a href="#" class="text-gray-300 hover:text-white rounded-md px-2 py-1">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="blog-container">
+        <h1>Today's Blog</h1>
+        <p class="author-date">By Aditya</p>
+        <p>In our fast-paced world, it's easy to overlook small, beautiful moments. True happiness often resides in the simplest things. Pausing to appreciate the ordinary transforms perspective, finding contentment in what we have.</p>
+        <h2>Morning Brew</h2>
+        <p>The ritual of morning coffee/tea: aroma, warmth, first sip. A quiet moment of peace, setting a positive tone. Brief tranquility is valuable.</p>
+        <h2>Nature's Whisper</h2>
+        <p>Stepping outside offers calm. Rustling leaves, chirping birds, sunlight – reminders of nature's beauty. Observing details grounds us, pulling from distractions to the present.</p>
+        <h2>Comfort of Connection</h2>
+        <p>A genuine conversation, shared laugh, or kind smile brightens a day. Human connection is powerful, fostering belonging and understanding.</p>
+        <p>Savoring these joys cultivates gratitude and well-being, building a foundation to navigate challenges. Notice small wonders; they add richness to existence.</p>
+    </div>
+</body>
+</html>
